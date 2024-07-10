@@ -48,9 +48,9 @@ This project demonstrates how to make successful API calls using the Retrofit HT
 ## Project Structure
 
 - **data**: Contains data models and Retrofit API service.
+- **presentation**: Contains the view model for the application.
 - **repository**: Manages data operations and communicates with the data layer.
 - **ui**: Contains UI components and ViewModel.
-- **utils**: Contains utility classes and functions.
 
 ## Contributing
 
