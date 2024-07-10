@@ -50,7 +50,6 @@ import com.example.learningretrofit.ui.theme.LearningRetrofitTheme
 import kotlinx.coroutines.flow.collectLatest
 
 class MainActivity : ComponentActivity() {
-
     private val viewModel by viewModels<ProductsViewModel>(factoryProducer = {
         object : ViewModelProvider.Factory {
             override fun <T : ViewModel> create(modelClass: Class<T>): T {
